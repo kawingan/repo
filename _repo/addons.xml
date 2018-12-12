@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.video.kawingan" name="Kawingan" version="0.0.1" provider-name="Eminus">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+        <import addon="script.module.urlresolver"  version="2.10.12"/>
+        <import addon="script.module.addon.common" />
+        <import addon="script.module.requests" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Para sa mga kababayan natin na nasa malayong lugar</summary>
+		<description lang="en">Created by developer [COLOR yellow]Eminus[/COLOR].  Please remember that Kawingan is not an official part of the Kodi media player you are running, and therefore is not to be mentioned within official support channels of Kodi, this addon has nothing to do with the media player itself, nor it’s intended use, it is simply a third party plugin which has been added to your system.</description>
+		<platform>all</platform>
+		<forum></forum>
+		<website></website>
+		<news></news>
+		<genre>movies,tvshows,filipino,usa</genre>
+		<video_guide></video_guide>
+		<video_preview></video_preview>
+	</extension>
+</addon>
+
+    <addon id="repository.kawingan" name="Kawingan Repository" version="0.1.0" provider-name="Eminus">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="Kawingan Repository">
+            <info compressed="false">http://github.com/kawingan/_repo/addons.xml</info>
+            <checksum>http://github.com/kawingan/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">http://github.com/kawingan/_repo/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Repository for Kawingan</summary>
+            <description>Download and Install Addons From Kawingan</description>
+            <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="repository.tutorial" name="Tutorial Repository" version="1.0.0" provider-name="Tutorial">
+    <extension point="xbmc.addon.repository" name="Malchus Tv Repository">
+        <info compressed="false">http://www.skymashi.eu/_repo/addons.xml</info>
+        <checksum>http://www.skymashi.eu/_repo/addons.xml.md5</checksum>
+        <datadir zip="true">http://www.skymashi.eu/_repo/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Install all of Tutorial ADD ONS</summary>
+        <description>Bla Bla Bla...</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+</addons>
